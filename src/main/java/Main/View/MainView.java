@@ -72,6 +72,7 @@ public class MainView {
         panel4.add(bt_exit);
         container.add(panel4);
 
+
     }
 
 }
