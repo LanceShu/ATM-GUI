@@ -7,64 +7,57 @@ import java.awt.event.WindowEvent;
 
 public class MenuView {
 
-    public static void ATMGUI(){
+    private static JFrame frame;
 
-        //主布局;
-        JFrame bodyFrame = new JFrame("ATM");
-        bodyFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        //设置主布局的布局格式;
-        bodyFrame.setLayout(new BorderLayout());
+    public MenuView(){
+        Font font = new Font("黑体",Font.PLAIN,20);
+        frame = new JFrame("欢迎使用ATM机");
+        frame.setSize(600,540);
 
-        //左边的布局;
-        JPanel leftFrame = new JPanel();
-        //左边布局功能的布局格式;
-        leftFrame.setLayout(new BorderLayout());
-        //转帐按钮;
-        JButton bt1 = new JButton("转帐");
-        bt1.setBorderPainted(false);
-        //转帐按钮的大小;
-        bt1.setPreferredSize(new Dimension(150,140));
-        //转帐按钮的颜色;
-        //查询余额按钮;
-        JButton bt2 = new JButton("查询余额");
-        bt1.setBorderPainted(false);
-        //查询余额按钮的大小;
-        bt2.setPreferredSize(new Dimension(150,140));
-        //查询余额按钮的颜色;
-        //按钮在布局中的位置;
-        leftFrame.add(bt1,BorderLayout.NORTH);
-        leftFrame.add(bt2,BorderLayout.SOUTH);
+        ImageIcon imageIcon = new ImageIcon("E:/Java/ATM/back.png");
+        imageIcon.setImage(imageIcon.getImage().getScaledInstance(600
+                ,600,Image.SCALE_DEFAULT));
 
-        //右边的布局;
-        JPanel rightFrame = new JPanel();
-        //右边布局的布局格式;
-        rightFrame.setLayout(new BorderLayout());
-        //取款按钮；
-        JButton bt3 = new JButton("取款");
-        bt1.setBorderPainted(false);
-        //取款按钮的大小；
-        bt3.setPreferredSize(new Dimension(150,140));
-        //取款按钮的颜色；
+        JLabel label = new JLabel();
+        label.setIcon(imageIcon);
+
+        JTextField content = new JTextField();
+        content.setText("欢迎使用ATM机");
+        content.setBounds(60,60,450,150);
+        content.setFont(new Font("黑体",Font.PLAIN,24));
+
         //存款按钮;
-        JButton bt4 = new JButton("存款");
-        //存款按钮的大小；
-        bt4.setPreferredSize(new Dimension(150,140));
-        bt1.setBorderPainted(false);
-        //存款按钮的颜色；
-        //按钮在布局中的位置；
-        rightFrame.add(bt3,BorderLayout.NORTH);
-        rightFrame.add(bt4,BorderLayout.SOUTH);
+        JButton deposit = new JButton("存款");
+        deposit.setFont(font);
+        deposit.setBounds(80,240,150,50);
 
-        //中间显示内容部分;
-        JTextField area = new JTextField(20);
-        area.setPreferredSize(new Dimension(200,300));
+        //取款按钮;
+        JButton draw = new JButton("取款");
+        draw.setFont(font);
+        draw.setBounds(340,240,150,50);
 
-        bodyFrame.add(leftFrame,BorderLayout.WEST);
-        bodyFrame.add(rightFrame,BorderLayout.EAST);
-        bodyFrame.add(area,BorderLayout.CENTER);
+        //查询按钮;
+        JButton query = new JButton("查询余额");
+        query.setFont(font);
+        query.setBounds(80,320,150,50);
 
-        bodyFrame.setSize(600,300);
-        bodyFrame.setVisible(true);
+        //查询按钮;
+        JButton exit = new JButton("退出");
+        exit.setFont(font);
+        exit.setBounds(340,320,150,50);
 
+        label.add(content);
+        label.add(deposit);
+        label.add(draw);
+        label.add(query);
+        label.add(exit);
+        frame.add(label);
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocation(300,100);
+    }
+
+    public static void main(String[] args) {
+        MenuView menuView = new MenuView();
     }
 }

@@ -11,9 +11,10 @@ public class MainView {
     private static JButton bt_exit;
     private static JTextField jt_num;
     private static JPasswordField jt_pass;
+    public static JFrame bodyFrame;
 
     public static void main(String[] args) {
-        new MainView();
+        MainView mainView = new MainView();
 
         bt_log.addActionListener(new ActionListener() {
             @Override
@@ -26,12 +27,18 @@ public class MainView {
                     JOptionPane.showMessageDialog(null,
                             "您输入的银行卡号或密码不能为空~",
                             "信息提示",JOptionPane.ERROR_MESSAGE);
-                }else if(num.length() != 19){
-                    JOptionPane.showMessageDialog(null,
-                            "您输入的银行卡号格式有误，请重新输入~",
-                            "信息提示",JOptionPane.ERROR_MESSAGE);
-                }else{
+                }
+//                else if(num.length() != 19){
+//                    JOptionPane.showMessageDialog(null,
+//                            "您输入的银行卡号格式有误，请重新输入~",
+//                            "信息提示",JOptionPane.ERROR_MESSAGE);
+//                }
+                else{
                     System.out.println("num=" + num + ",pass=" + pass);
+                    if(num.equals("root") && pass.equals("123456")){
+                        new MenuView();
+                        bodyFrame.dispose();
+                    }
                 }
             }
         });
@@ -48,17 +55,17 @@ public class MainView {
 
         Font font = new Font("黑体",Font.PLAIN,20);
 
-        JFrame bodyFrame = new JFrame("ATM登录界面");
-        bodyFrame.setSize(600,600);
+        bodyFrame = new JFrame("ATM登录界面");
+        bodyFrame.setMinimumSize(new Dimension(600,540));
 
-        ImageIcon imageIcon = new ImageIcon("E:/alback.png");
+        ImageIcon imageIcon = new ImageIcon("E:/Java/ATM/back.png");
         imageIcon.setImage(imageIcon.getImage().getScaledInstance(600
                 ,600,Image.SCALE_DEFAULT));
 
         JLabel label1 = new JLabel();
         label1.setIcon(imageIcon);
 
-        JLabel title = new JLabel("欢迎使用ATM系统");
+        JLabel title = new JLabel("欢迎使用ATM机");
         title.setBounds(200,60,300,40);
         title.setFont(new Font("黑体",Font.PLAIN,28));
 
