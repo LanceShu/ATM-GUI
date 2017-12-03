@@ -100,7 +100,7 @@ public class MainView {
          * 设置背景；
          * 背景图片大小为600*600；
          * */
-        ImageIcon imageIcon = new ImageIcon("E:/Java/ATM/back.png");
+        ImageIcon imageIcon = new ImageIcon("E:/Java/ATM-GUI/back.png");
         imageIcon.setImage(imageIcon.getImage().getScaledInstance(600
                 ,600,Image.SCALE_DEFAULT));
 

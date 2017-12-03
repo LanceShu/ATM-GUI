@@ -11,14 +11,17 @@ import java.util.ResourceBundle;
 
 /**
  * 数据库连接操作类
- * @author 张荣
  */
 public final class ConnectionManager
 {
     private static ConnectionManager instance;
     private static ComboPooledDataSource ds;
 
-//     初始化,只执行一次
+    /**
+     * 初始化,只执行一次
+     *
+     * MySQL数据库初始化，进行连接;
+     * */
     static
     {
         ResourceBundle rb = ResourceBundle.getBundle("c3p0");
@@ -39,7 +42,7 @@ public final class ConnectionManager
 
     /**
      * 获取数据库实例
-     * @return 连接对象ConnectionManager
+     * 单例模式;
      */
     public synchronized static final ConnectionManager getInstance()
     {
@@ -59,7 +62,6 @@ public final class ConnectionManager
 
     /**
      * 获取数据库连接
-     * @return 数据库连接对象Connection
      */
     public synchronized final Connection getConnection()
     {
@@ -78,7 +80,6 @@ public final class ConnectionManager
 
     /**
      * 关闭数据库连接
-     * @return void
      */
     public static void close(ResultSet rs, Statement stmt, Connection con)
     {
@@ -99,7 +100,6 @@ public final class ConnectionManager
 
     /**
      * 释放数据库资源
-     * @return void
      */
     @Override
     protected void finalize() throws Throwable

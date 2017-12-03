@@ -7,10 +7,17 @@ import java.sql.Connection
 import java.sql.PreparedStatement
 import java.sql.ResultSet
 import java.util.*
+
+/**
+ * 数据库中的用户信息表数据进行操作；
+ * */
 class UserDAO : IUser {
 
-
+    /**
+     * 删除操作；
+     * */
     override fun delete(userId: Int): Boolean {
+
         var result = false
         if (userId == 0)
             return result
@@ -35,7 +42,11 @@ class UserDAO : IUser {
         }
     }
 
+    /**
+     * 更新操作；
+     * */
     override fun update(user: User): Boolean {
+
         var result = false
         if (user == null)
             return result
@@ -47,7 +58,6 @@ class UserDAO : IUser {
             pstmt = con!!.prepareStatement(sql)
             pstmt!!.setString(1, user.emp_no)
             pstmt.setString(2, user.emp_pass)
-            pstmt.setInt(3, user.type)
 
             pstmt.executeUpdate()
             result = true
@@ -60,8 +70,10 @@ class UserDAO : IUser {
         }
     }
 
+    /**
+    * 查找操作；
+    * */
     override fun findEmployeeAll(): ArrayList<User> {
-//        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
         val list = ArrayList<User>()
         var info: User
 
@@ -92,6 +104,9 @@ class UserDAO : IUser {
         }
     }
 
+    /**
+     * 查找指定卡号的操作；
+     * */
     override fun findEmployeeByName(userName: String): ArrayList<User>? {
 
         var list=ArrayList<User>()
@@ -109,12 +124,12 @@ class UserDAO : IUser {
         }
         ConnectionManager.close(rs,pstmt,con)
         return list
-//        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-
+    /**
+     * 插入操作；
+     * */
     override fun insert(user: User): Boolean {
-//        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
         var result = false
         if (user == null)
             return result
@@ -127,7 +142,6 @@ class UserDAO : IUser {
             pstmt = con!!.prepareStatement(sql)
             pstmt!!.setString(1, user.emp_no)
             pstmt.setString(2, user.emp_pass)
-            pstmt.setInt(3, user.type)
 
             pstmt.executeUpdate()
             result = true

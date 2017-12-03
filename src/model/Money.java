@@ -1,8 +1,13 @@
 package model;
 
 public class Money {
+
+    //卡号
     private String emp_no;
+
+    //余额
     private Double balance;
+
     public Money(){}
 
     public Money(String emp_no, Double balance) {

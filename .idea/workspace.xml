@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6539b3ec-7a88-4949-806f-991d5aeeddcc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_1_4_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jre7_1_1_4_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jre8_1_1_4_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/ATM_main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/ATM_test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Main/View/MainView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Main/View/MenuView.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ATM.iml" afterPath="$PROJECT_DIR$/ATM.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/UserServer.kt" afterPath="$PROJECT_DIR$/src/Service/UserServer.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/MainView.java" afterPath="$PROJECT_DIR$/src/View/MainView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/MenuView.java" afterPath="$PROJECT_DIR$/src/View/MenuView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/MoneyDAO.kt" afterPath="$PROJECT_DIR$/src/dao/MoneyDAO.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/UserDAO.kt" afterPath="$PROJECT_DIR$/src/dao/UserDAO.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/idao/IMoney.kt" afterPath="$PROJECT_DIR$/src/idao/IMoney.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/idao/IUser.kt" afterPath="$PROJECT_DIR$/src/idao/IUser.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Money.java" afterPath="$PROJECT_DIR$/src/model/Money.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/User.java" afterPath="$PROJECT_DIR$/src/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/util/ConnectionManager.java" afterPath="$PROJECT_DIR$/src/util/ConnectionManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,49 +30,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="c3p0.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/c3p0.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/MainView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="51" column="62" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="51" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServer.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/UserServer.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDAO.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserDAO.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/UserDAO.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="944">
+              <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
               <folding>
                 <element signature="e#13#184#0" expanded="true" />
-                <marker date="1512315592572" expanded="true" signature="504:535" ph="delete from " />
-                <marker date="1512315592572" expanded="true" signature="1210:1258" ph="update user " />
-                <marker date="1512315592572" expanded="true" signature="2149:2167" ph="select * fro... user" />
-                <marker date="1512315592572" expanded="true" signature="3047:3085" ph="select * fro... user" />
-                <marker date="1512315592572" expanded="true" signature="3906:3960" ph="insert into user... " />
+                <marker date="1512321585539" expanded="true" signature="567:598" ph="delete from " />
+                <marker date="1512321585539" expanded="true" signature="1305:1353" ph="update user " />
+                <marker date="1512321585539" expanded="true" signature="2124:2142" ph="select * fro... user" />
+                <marker date="1512321585539" expanded="true" signature="3058:3096" ph="select * fro... user" />
+                <marker date="1512321585539" expanded="true" signature="3727:3781" ph="insert into user... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/View/MainView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2275">
+              <caret line="102" column="45" lean-forward="true" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="69" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,22 +84,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.kt" />
-        <option value="$PROJECT_DIR$/src/util/ConnectionManager.java" />
         <option value="$PROJECT_DIR$/src/dao/User.kt" />
         <option value="$PROJECT_DIR$/src/dao/EmployeeDAO.java" />
         <option value="$PROJECT_DIR$/src/idao/IEmployee.java" />
-        <option value="$PROJECT_DIR$/src/idao/IUser.kt" />
-        <option value="$PROJECT_DIR$/src/c3p0.properties" />
-        <option value="$PROJECT_DIR$/src/idao/IMoney.kt" />
-        <option value="$PROJECT_DIR$/src/model/Money.java" />
-        <option value="$PROJECT_DIR$/src/dao/MoneyDAO.kt" />
         <option value="$PROJECT_DIR$/src/idao/DAOFactory.java" />
         <option value="$PROJECT_DIR$/src/aaa.java" />
         <option value="$PROJECT_DIR$/src/Content.java" />
+        <option value="$PROJECT_DIR$/src/c3p0.properties" />
         <option value="$PROJECT_DIR$/src/View/MainView.java" />
+        <option value="$PROJECT_DIR$/src/View/MenuView.java" />
+        <option value="$PROJECT_DIR$/src/util/ConnectionManager.java" />
+        <option value="$PROJECT_DIR$/src/dao/MoneyDAO.kt" />
+        <option value="$PROJECT_DIR$/src/idao/IMoney.kt" />
+        <option value="$PROJECT_DIR$/src/idao/IUser.kt" />
+        <option value="$PROJECT_DIR$/src/model/Money.java" />
         <option value="$PROJECT_DIR$/src/model/User.java" />
         <option value="$PROJECT_DIR$/src/Service/UserServer.kt" />
-        <option value="$PROJECT_DIR$/src/View/MenuView.java" />
         <option value="$PROJECT_DIR$/src/dao/UserDAO.kt" />
       </list>
     </option>
@@ -137,11 +110,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="808" />
-    <option name="y" value="170" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="775" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -160,60 +133,24 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ATM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ATM" type="462c0819:PsiDirectoryNode" />
+              <item name="ATM-GUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ATM-GUI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ATM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ATM" type="462c0819:PsiDirectoryNode" />
+              <item name="ATM-GUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ATM-GUI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ATM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ATM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ATM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ATM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="idao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ATM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ATM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ATM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ATM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ATM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ATM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ATM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ATM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -224,6 +161,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="show.inlinked.gradle.project.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -387,7 +325,7 @@
       <option name="presentableId" value="Default" />
       <updated>1512301013412</updated>
       <workItem from="1512301016727" duration="2732000" />
-      <workItem from="1512315446219" duration="142000" />
+      <workItem from="1512316369685" duration="2078000" />
     </task>
     <task id="LOCAL-00001" summary="completed">
       <created>1512314594398</created>
@@ -400,32 +338,32 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9176000" />
+    <option name="totallyTimeSpent" value="11112000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23177366" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07907743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17910448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21558245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -466,12 +404,11 @@
         <state relative-caret-position="1150">
           <caret line="52" column="45" lean-forward="true" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
           <folding>
-            <element signature="e#13#194#0" expanded="true" />
-            <marker date="1512307061331" expanded="true" signature="630:662" ph="delete from " />
-            <marker date="1512307061331" expanded="true" signature="1451:1492" ph="update money... " />
-            <marker date="1512307061331" expanded="true" signature="2345:2364" ph="select * fro... money" />
-            <marker date="1512307061331" expanded="true" signature="3212:3251" ph="select * fro... money" />
-            <marker date="1512307061331" expanded="true" signature="4058:4104" ph="insert into money... " />
+            <marker date="1512321564375" expanded="true" signature="727:759" ph="delete from " />
+            <marker date="1512321564375" expanded="true" signature="1615:1656" ph="update money... " />
+            <marker date="1512321564375" expanded="true" signature="2474:2493" ph="select * fro... money" />
+            <marker date="1512321564375" expanded="true" signature="3473:3512" ph="select * fro... money" />
+            <marker date="1512321564375" expanded="true" signature="4151:4197" ph="insert into money... " />
           </folding>
         </state>
       </provider>
@@ -492,11 +429,11 @@
           <caret line="139" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
           <folding>
             <element signature="e#13#184#0" expanded="true" />
-            <marker date="1512315592572" expanded="true" signature="504:535" ph="delete from " />
-            <marker date="1512315592572" expanded="true" signature="1210:1258" ph="update user " />
-            <marker date="1512315592572" expanded="true" signature="2149:2167" ph="select * fro... user" />
-            <marker date="1512315592572" expanded="true" signature="3047:3085" ph="select * fro... user" />
-            <marker date="1512315592572" expanded="true" signature="3906:3960" ph="insert into user... " />
+            <marker date="1512321585539" expanded="true" signature="567:598" ph="delete from " />
+            <marker date="1512321585539" expanded="true" signature="1305:1353" ph="update user " />
+            <marker date="1512321585539" expanded="true" signature="2124:2142" ph="select * fro... user" />
+            <marker date="1512321585539" expanded="true" signature="3058:3096" ph="select * fro... user" />
+            <marker date="1512321585539" expanded="true" signature="3727:3781" ph="insert into user... " />
           </folding>
         </state>
       </provider>
@@ -555,12 +492,11 @@
         <state relative-caret-position="1150">
           <caret line="52" column="45" lean-forward="false" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
           <folding>
-            <element signature="e#13#194#0" expanded="true" />
-            <marker date="1512307061331" expanded="true" signature="630:662" ph="delete from " />
-            <marker date="1512307061331" expanded="true" signature="1451:1492" ph="update money... " />
-            <marker date="1512307061331" expanded="true" signature="2345:2364" ph="select * fro... money" />
-            <marker date="1512307061331" expanded="true" signature="3212:3251" ph="select * fro... money" />
-            <marker date="1512307061331" expanded="true" signature="4058:4104" ph="insert into money... " />
+            <marker date="1512321564375" expanded="true" signature="727:759" ph="delete from " />
+            <marker date="1512321564375" expanded="true" signature="1615:1656" ph="update money... " />
+            <marker date="1512321564375" expanded="true" signature="2474:2493" ph="select * fro... money" />
+            <marker date="1512321564375" expanded="true" signature="3473:3512" ph="select * fro... money" />
+            <marker date="1512321564375" expanded="true" signature="4151:4197" ph="insert into money... " />
           </folding>
         </state>
       </provider>
@@ -595,11 +531,11 @@
           <caret line="130" column="18" lean-forward="false" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
           <folding>
             <element signature="e#13#184#0" expanded="true" />
-            <marker date="1512315592572" expanded="true" signature="504:535" ph="delete from " />
-            <marker date="1512315592572" expanded="true" signature="1210:1258" ph="update user " />
-            <marker date="1512315592572" expanded="true" signature="2149:2167" ph="select * fro... user" />
-            <marker date="1512315592572" expanded="true" signature="3047:3085" ph="select * fro... user" />
-            <marker date="1512315592572" expanded="true" signature="3906:3960" ph="insert into user... " />
+            <marker date="1512321585539" expanded="true" signature="567:598" ph="delete from " />
+            <marker date="1512321585539" expanded="true" signature="1305:1353" ph="update user " />
+            <marker date="1512321585539" expanded="true" signature="2124:2142" ph="select * fro... user" />
+            <marker date="1512321585539" expanded="true" signature="3058:3096" ph="select * fro... user" />
+            <marker date="1512321585539" expanded="true" signature="3727:3781" ph="insert into user... " />
           </folding>
         </state>
       </provider>
@@ -624,56 +560,80 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/util/ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/SaveXls.java" />
     <entry file="file://$PROJECT_DIR$/src/idao/UserDAO.java" />
     <entry file="file://$PROJECT_DIR$/src/dao/User.kt" />
     <entry file="file://$PROJECT_DIR$/src/model/Employee.java" />
     <entry file="file://$PROJECT_DIR$/src/dao/EmployeeDAO.java" />
     <entry file="file://$PROJECT_DIR$/src/util/DateMatcher.java" />
-    <entry file="file://$PROJECT_DIR$/src/idao/IUser.kt">
+    <entry file="file://$PROJECT_DIR$/src/idao/IEmployee.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.kt" />
+    <entry file="file://$PROJECT_DIR$/src/aaa.java" />
+    <entry file="file://$PROJECT_DIR$/src/Content.java" />
+    <entry file="file://$PROJECT_DIR$/src/c3p0.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="18" column="71" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="18" selection-end-column="71" />
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/MoneyDAO.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#14#50#0" expanded="true" />
+            <marker date="1512321564375" expanded="true" signature="727:759" ph="delete from " />
+            <marker date="1512321564375" expanded="true" signature="1615:1656" ph="update money... " />
+            <marker date="1512321564375" expanded="true" signature="2474:2493" ph="select * fro... money" />
+            <marker date="1512321564375" expanded="true" signature="3473:3512" ph="select * fro... money" />
+            <marker date="1512321564375" expanded="true" signature="4151:4197" ph="insert into money... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/idao/DAOFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="125">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/idao/IEmployee.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main.kt" />
-    <entry file="file://$PROJECT_DIR$/src/aaa.java">
+    <entry file="file://$PROJECT_DIR$/src/idao/IMoney.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="309">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="e#15#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/idao/IUser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="e#14#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Money.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Content.java" />
     <entry file="file://$PROJECT_DIR$/src/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="184">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
             <element signature="e#248#249#0" expanded="true" />
             <element signature="e#279#280#0" expanded="true" />
@@ -681,83 +641,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/idao/IMoney.kt">
+    <entry file="file://$PROJECT_DIR$/src/Service/UserServer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#15#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Money.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="159">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/MoneyDAO.kt">
+    <entry file="file://$PROJECT_DIR$/src/util/ConnectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="52" column="45" lean-forward="true" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-          <folding>
-            <element signature="e#13#194#0" expanded="true" />
-            <marker date="1512307061331" expanded="true" signature="630:662" ph="delete from " />
-            <marker date="1512307061331" expanded="true" signature="1451:1492" ph="update money... " />
-            <marker date="1512307061331" expanded="true" signature="2345:2364" ph="select * fro... money" />
-            <marker date="1512307061331" expanded="true" signature="3212:3251" ph="select * fro... money" />
-            <marker date="1512307061331" expanded="true" signature="4058:4104" ph="insert into money... " />
-          </folding>
+        <state relative-caret-position="-1341">
+          <caret line="44" column="12" lean-forward="false" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/MenuView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="169" column="68" lean-forward="true" selection-start-line="169" selection-start-column="68" selection-end-line="169" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c3p0.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="51" column="62" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="51" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/UserServer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="483">
+          <caret line="192" column="19" lean-forward="false" selection-start-line="192" selection-start-column="19" selection-end-line="192" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/UserDAO.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="944">
+          <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
           <folding>
             <element signature="e#13#184#0" expanded="true" />
-            <marker date="1512315592572" expanded="true" signature="504:535" ph="delete from " />
-            <marker date="1512315592572" expanded="true" signature="1210:1258" ph="update user " />
-            <marker date="1512315592572" expanded="true" signature="2149:2167" ph="select * fro... user" />
-            <marker date="1512315592572" expanded="true" signature="3047:3085" ph="select * fro... user" />
-            <marker date="1512315592572" expanded="true" signature="3906:3960" ph="insert into user... " />
+            <marker date="1512321585539" expanded="true" signature="567:598" ph="delete from " />
+            <marker date="1512321585539" expanded="true" signature="1305:1353" ph="update user " />
+            <marker date="1512321585539" expanded="true" signature="2124:2142" ph="select * fro... user" />
+            <marker date="1512321585539" expanded="true" signature="3058:3096" ph="select * fro... user" />
+            <marker date="1512321585539" expanded="true" signature="3727:3781" ph="insert into user... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2275">
+          <caret line="102" column="45" lean-forward="true" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>

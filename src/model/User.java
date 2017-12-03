@@ -13,9 +13,11 @@ public class User {
         instance = null;
     }
 
+    //卡号；
     private String emp_no;
+    //密码；
     private String emp_pass;
-    private int type;
+
     public User(){}
 
     public User(String emp_no, String emp_pass) {
@@ -26,7 +28,6 @@ public class User {
     public User(String emp_no, String emp_pass, int type) {
         this.emp_no = emp_no;
         this.emp_pass = emp_pass;
-        this.type = type;
     }
 
     public String getEmp_no() {
@@ -45,11 +46,4 @@ public class User {
         this.emp_pass = emp_pass;
     }
 
-    public int getType() {
-        return type;
-    }
-
-    public void setType(int type) {
-        this.type = type;
-    }
 }

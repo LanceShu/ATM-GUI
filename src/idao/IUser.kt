@@ -4,12 +4,14 @@ import model.User
 import java.util.*
 
 interface IUser{
+
+    //插入用户
     abstract fun insert(user: User): Boolean
 
-    // 删
+    // 删除用户
     abstract fun delete(userId: Int): Boolean
 
-    // 改
+    // 更新用户
     abstract fun update(user: User): Boolean
 
     // 查所有用户(一般用于和界面交互)

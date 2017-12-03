@@ -5,17 +5,29 @@ import model.Money
 import java.util.ArrayList
 
 interface IMoney{
+
+    /*
+    * 插入方法；
+    * */
     abstract fun insert(money: Money): Boolean
 
-    // 删
+    /*
+    * 删除方法；
+    * */
     abstract fun delete(moneyId: Int): Boolean
 
-    // 改
+    /*
+     *更新方法；
+     * */
     abstract fun update(money: Money): Boolean
 
-    // 查所有用户(一般用于和界面交互)
+    /*
+    * 查找所有用户余额的方法；
+    * */
     abstract fun findMoneyAll(): ArrayList<Money>
 
-    // 根据用户名查(一般用于和界面交互)
+    /*
+    * 查找指定用户余额的方法；
+    * */
     abstract fun findMoneyByName(moneyName: String): ArrayList<Money>?
 }
