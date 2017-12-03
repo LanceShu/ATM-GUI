@@ -1,9 +1,15 @@
-package Main.View;
+package View;
+
+import dao.UserDAO;
+import idao.DAOFactory;
+import idao.IUser;
+import model.User;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 public class MainView {
 
@@ -14,7 +20,7 @@ public class MainView {
     public static JFrame bodyFrame;
 
     public static void main(String[] args) {
-        MainView mainView = new MainView();
+        new MainView();
 
         /**
          * 登录按钮的点击事件；
@@ -40,18 +46,27 @@ public class MainView {
                     JOptionPane.showMessageDialog(null,
                             "您输入的银行卡号或密码不能为空~",
                             "信息提示",JOptionPane.ERROR_MESSAGE);
+                } else if(num.length() != 19){
+                    JOptionPane.showMessageDialog(null,
+                            "您输入的银行卡号格式有误，请重新输入~",
+                            "信息提示",JOptionPane.ERROR_MESSAGE);
                 }
-//                else if(num.length() != 19){
-//                    JOptionPane.showMessageDialog(null,
-//                            "您输入的银行卡号格式有误，请重新输入~",
-//                            "信息提示",JOptionPane.ERROR_MESSAGE);
-//                }
                 else{
                     System.out.println("num=" + num + ",pass=" + pass);
-                    if(num.equals("root") && pass.equals("123456")){
-                        new MenuView();
-                        bodyFrame.dispose();
+                    IUser user = DAOFactory.creatUserDAO();
+                    ArrayList<User> userList = user.findEmployeeByName(num);
+                    for (User user1 : userList) {
+                        if(user1.getEmp_pass().equals(pass)){
+                            User.getInstance().setEmp_no(num);
+                            User.getInstance().setEmp_pass(pass);
+                            new MenuView();
+                            bodyFrame.dispose();
+                            return;
+                        }
                     }
+                    JOptionPane.showMessageDialog(null,
+                            "您输入的密码不正确~",
+                            "信息提示",JOptionPane.ERROR_MESSAGE);
                 }
             }
         });
